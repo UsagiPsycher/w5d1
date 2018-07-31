@@ -1,0 +1,16 @@
+
+<h1>Alala</h1>
+<p>Bienvenue dans la création d'utilisateurs !</p>
+<form action="new" method="POST">
+<div class="container">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  Username
+  <input type="text" name="username"><br>
+  <br>
+    Bio
+  <textarea name="bio">Mets ta bio ici.</textarea>
+  <button class="btn btn-danger" type="submit">Envoyer le formulaire</button>
+  </div>
+</form>
+
+
